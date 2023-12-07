@@ -1,5 +1,8 @@
 ---
 title: Text Document (Test)
+author: Zeplar Templar
+publish_date: 20231206
+source: https://www.example.com
 languages: en
 levels: A1
 tags: test example
