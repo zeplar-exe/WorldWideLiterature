@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>World Wide Literature</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery.lettering.js"></script>
+</head>
+
+<body>
+    <div id="topbar">
+        <select name="languages" id="language-select">
+            <option value="en">English</option>
+        </select>
+    </div>
+    <div id="content-view">
+        <div id="main-text"></div>
+        <div id="tools-container">
+            <button id="font-size-tool" onclick="fontSizeButton()">A</button>
+            <button id="line-spacing-tool" onclick="lineSpacingButton()">L</button>
+        </div>
+    </div>
+    <div id="bottom-bar">
+        <div id="progress-bar">
+            <div id="progress-bar-inner"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+html body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#topbar {
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+#language-select {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#content-view {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#main-text {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    white-space: pre-wrap;
+}
+
+#main-text span:hover {
+    background-color: lightcyan;
+}
+
+#tools-container {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+
+#tools-container * {
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+#bottom-bar {
+    height: 15px;
+    width: 100%;
+    background-color: darkgray;
+    position: fixed;
+    display: flex;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+}
+
+#progress-bar {
+    background-color: white;
+    border-radius: 15px;
+    width: 95%;
+    height: 70%;
+    margin: auto;
+}
+
+#progress-bar-inner {
+    float: left;
+    background-color: blue;
+    border-radius: 15px;
+    width: 0%;
+    height: 100%;
+    margin: auto;
+}
+
+#footer {
+    height: 500px;
+    width: 100%;
+    background-color: mintcream;
+}
